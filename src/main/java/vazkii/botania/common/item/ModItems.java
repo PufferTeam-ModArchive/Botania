@@ -425,6 +425,8 @@ public final class ModItems {
 		for(int i = 0; i < 16; i++) {
 			OreDictionary.registerOre(LibOreDict.PETAL[i], new ItemStack(petal, 1, i));
 			OreDictionary.registerOre(LibOreDict.DYE[i], new ItemStack(dye, 1, i));
+		}
+		for(int i = 0; i < 19; i++) {
 			OreDictionary.registerOre(LibOreDict.RUNE[i], new ItemStack(rune, 1, i));
 		}
 		for(int i = 0; i < 7; i++)

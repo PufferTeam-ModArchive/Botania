@@ -78,9 +78,9 @@ public final class LibOreDict {
 	};
 
 	public static final String[] RUNE = new String[] {
-		"runeWaterB", "runeFireB", "runeEarthB", "runeAirB",
-		"runeSpringB", "runeSummerB", "runeAutumnB", "runeWinterB",
-		"runeManaB", "runeLustB", "runeGluttonyB", "runeGreedB",
+		"runeEmptyB", "runeAirB", "runeFireB", "runeWaterB", "runeEarthB", 
+		"runeOrderB", "runeEntropyB", "runeManaB",
+		"runeSpringB", "runeSummerB", "runeAutumnB", "runeWinterB", "runeLustB", "runeGluttonyB", "runeGreedB",
 		"runeSlothB", "runeWrathB", "runeEnvyB", "runePrideB"
 	};
 
