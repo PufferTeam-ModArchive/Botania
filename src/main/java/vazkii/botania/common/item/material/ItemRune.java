@@ -40,7 +40,7 @@ public class ItemRune extends ItemMod implements IFlowerComponent, IPickupAchiev
 
 	@Override
 	public void registerIcons(IIconRegister par1IconRegister) {
-		icons = new IIcon[16];
+		icons = new IIcon[19];
 		for(int i = 0; i < icons.length; i++)
 			icons[i] = IconHelper.forItem(par1IconRegister, this, i);
 	}
@@ -52,7 +52,7 @@ public class ItemRune extends ItemMod implements IFlowerComponent, IPickupAchiev
 
 	@Override
 	public void getSubItems(Item par1, CreativeTabs par2CreativeTabs, List par3List) {
-		for(int i = 0; i < 16; i++)
+		for(int i = 0; i < 19; i++)
 			par3List.add(new ItemStack(par1, 1, i));
 	}
 
